@@ -1,0 +1,92 @@
+body {
+    background-color: #eee;
+    font-family: Poppins, Arial, sans-serif;
+}
+
+form {
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 60px 30px 60px 30px;
+    border: 1px solid #ddd;
+    border-radius: 1%;
+    box-shadow: 0px 0px 10px 3px #ddd;
+}
+
+h1,
+.sm-actions__container {
+    margin: 0px 0px 40px 20px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 0px 0px 10px 20px;
+    font-size: 25px;
+}
+
+input,
+textarea {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+textarea {
+    min-width: 70%;
+    min-height: 150px;
+    max-width: 97.5%;
+    max-height: 300px;
+}
+
+button {
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1e90ff;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0068cf;
+    border: 1px solid #0068cf;
+    border-radius: 5px;
+}
+
+.sm-field__wrapper__inside {
+    margin: 20px;
+}
+
+.sm-field__info {
+    color: #333;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+
+/* REMOVE SCROLL INSIDEINPUT FIELD */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Remove default spin buttons */
+    appearance: none;
+    margin: 0; /* Optional: Remove margin */
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox: Remove default spin buttons */
+    overflow: hidden; /* Remove scrollbars */
+}
