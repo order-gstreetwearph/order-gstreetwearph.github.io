@@ -3,6 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="formstyle.css"/>
   <title>Order Form | G's Streetwear PH</title>
 </head>
@@ -12,7 +16,13 @@
     <div class="sm__form__fields">
 
       <h1>G's Streetwear PH</h1>
+        <div class="store-address">
+          <span>Malabanban Norte</span>
+          <span>Candelaria, Quezon PH 4323</span>
+        </div>
       <h2>Order Form</h2>
+
+      <input type="hidden" class="sm-field__input sm-field__input--hidden" id="sm-field-pmBHzoigxW" name="Date & Time" value="x-sheetmonkey-current-date-time"/>
   
       <div class="sm-field__wrapper">
         <div class="sm-field__wrapper__inside">
@@ -46,7 +56,7 @@
         <div class="sm-field__wrapper__inside">
           <div class="sm-field sm-field--number sm-field--medium">
             <label class="sm-field__label" for="sm-field-HaVx8VntqJ">Mobile No.   <strong style="color:red">*</strong></label></br>
-            <input type="number" class="sm-field__input sm-field__input--url" id="sm-field-HaVx8VntqJ" name="Mobile No." placeholder="e.g. 09123456789" required maxlength="11" required=""/>
+            <input type="number" class="sm-field__input sm-field__input--url" id="sm-field-HaVx8VntqJ" name="Mobile No." placeholder="e.g. 09123456789" required=""/>
           </div>
         </div>
       </div>
@@ -60,7 +70,7 @@
           </div>
         </div>
       </div>
-                  
+  
       <div class="sm-field__wrapper">
         <div class="sm-field__wrapper__inside">
           <div class="sm-field sm-field--textarea sm-field--large">
@@ -73,7 +83,10 @@
       <div class="sm-actions__container">
         <button type="submit" class="sm-btn sm-btn--primary">Submit</button>
       </div>
-
+  
+      <div class="sm-branding-footer">
+        <p>Thank you for shopping with G's Streetwear PH!</p>
+      </div>
     </div>
   </form>
 
