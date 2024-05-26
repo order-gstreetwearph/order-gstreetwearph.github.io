@@ -1,0 +1,177 @@
+body {
+    background-color: #f1f1f1;
+    font-family: Poppins, Arial, sans-serif;
+}
+
+form {
+    background-color: #fff;
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 60px 30px 60px 30px;
+    border: 1px solid #ddd;
+    border-radius: 1%;
+    box-shadow: 0px 0px 10px 3px #ddd;
+}
+
+h1,
+h2,
+span,
+label,
+.sm-branding-footer {
+    color: #10043b;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 30px 0px 0px 20px;
+}
+
+.store-address {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 3px 0px 40px 20px;
+}
+
+h2 {
+    font-size: 27px;
+    font-family: Lobster, Poppins, Roboto, Arial, sans-serif;
+    margin: 0px 0px 10px 20px;
+}
+
+input,
+textarea {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    width: 50%;
+    height: 30px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 10px;
+}
+
+textarea {
+    min-width: 70%;
+    min-height: 150px;
+    max-width: 97.5%;
+    max-height: 300px;
+}
+
+button {
+    font-family: Poppins, Arial, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    background-color: #1e90ff;
+    width: 110px;
+    height: 40px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    margin: 30px 0px 40px 20px;
+}
+
+button:hover {
+    background-color: #0068cf;
+    border: 1px solid #0068cf;
+    border-radius: 5px;
+}
+
+.sm-field__wrapper__inside {
+    margin: 20px;
+}
+
+.sm-field__info {
+    color: #333;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.sm-branding-footer {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0px 0px 40px 20px;
+}
+
+
+/* MOBILE */
+
+@media screen and (max-width:1500px) {
+    form {
+        width: 60%;
+        padding: 30px 10px 30px 10px;
+    }
+
+    input,
+    textarea {
+        width: 64%; /* Input width */
+        max-width: 64%; /* Textarea width */
+    }
+}
+
+
+@media screen and (max-width:1200px) {
+    form {
+        width: 70%;
+        padding: 30px 10px 30px 10px;
+    }
+
+    input,
+    textarea {
+        width: 74%; /* Input width */
+        max-width: 74%; /* Textarea width */
+    }
+}
+
+
+@media screen and (max-width:700px) {
+    form {
+        width: 90%;
+        padding: 30px 10px 30px 10px;
+    }
+
+    input,
+    textarea {
+        width: 94%; /* Input width */
+        max-width: 94%; /* Textarea width */
+    }
+
+    h1 {
+        font-size: 30px;
+        margin: 30px 0px 0px 20px;
+    }
+
+    .store-address {
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .sm-field__label {
+        font-size: 14px;
+    }
+  }
+  
+
+
+
+/* REMOVE SCROLL INSIDEINPUT FIELD */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; /* Remove default spin buttons */
+    appearance: none;
+    margin: 0; /* Optional: Remove margin */
+}
+
+input[type="number"] {
+    -moz-appearance: textfield; /* Firefox: Remove default spin buttons */
+    overflow: hidden; /* Remove scrollbars */
+}
